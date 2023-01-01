@@ -6,7 +6,7 @@ Keep in mind that this script must be placed on a machine separated by the Proxm
 
 ```bash
 su -
-git pull "URL del progetto"
+git pull https://github.com/EnricoRoss98/ProxmoxWatchdog.git
 cd ProxmoxWatchdog
 sudo apt-get install python3-venv
 python3 -m venv venv
